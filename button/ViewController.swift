@@ -15,12 +15,12 @@ class ViewController: UIViewController {
         
     }
 
-//    @IBAction func buttonTapped(_ sender: Any) {
-//       let vc = storyboard?.instantiateViewController(withIdentifier: "tapped") as! TappedVC
-//        navigationController?.pushViewController(vc, animated: true)
-//     
-//    }
-//    
+    @IBAction func buttonTapped(_ sender: Any) {
+       let vc = storyboard?.instantiateViewController(withIdentifier: "tapped") as! TappedVC
+        navigationController?.pushViewController(vc, animated: true)
+     
+    }
+    
     
 }
 
